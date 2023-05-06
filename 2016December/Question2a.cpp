@@ -1,3 +1,16 @@
+/*
+Due to the difficulty of this question I recommend you do the question then run to see the solution
+14 
+16 
+18 
+18 
+18 
+20 
+22 
+*/
+
+
+
 #include <iostream>
 using namespace std;
 
