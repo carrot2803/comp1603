@@ -1,8 +1,11 @@
-# 03 Paper Solutions
+# 1603 Paper Solutions
 This repository contains Sem2 2023 solutions. This is a follow up to the Comp1602 past paper practise repo I worked on with Paul Taylor.
 ```sh
-https://github.com/
+https://github.com/uni-paul-taylor2/comp1602-pastpaper-practice.git
 ```
+
+## Usage
+Each past paper is organized by `year/month`, and each question is in the form qN, where N is the question number. The past paper in PDF format can also be found in the corresponding `year/month` folder.
 
 ## Installation
 <details>
@@ -10,10 +13,10 @@ https://github.com/
   <code>There are several ways to save this repository on your device. Two of these options include:</code>
 </summary>
 
-- [Downloading repository as ZIP](https://github.com/carrot2803/02-Finals-Solutions/archive/refs/heads/master.zip)
+- [Downloading repository as ZIP](https://github.com/carrot2803/1603-Past-Papers/archive/refs/heads/master.zip)
 - Running the following command in a terminal, provided the [GitHub CLI](https://cli.github.com/) has been previously installed:
 ```sh
-git clone https://github.com/carrot2803/02-Finals-Solutions.git
+git clone https://github.com/carrot2803/1603-Past-Papers.git
 ```
 </details>
 
