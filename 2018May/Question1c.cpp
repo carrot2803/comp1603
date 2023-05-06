@@ -113,20 +113,20 @@ int dequeue(Queue *q){
 }
 
 int main(){
-    int sum = 0, arr[10] = {0,1,2,3,4,5,6,8,9};
+    int product = 1, arr[] = {1,2,3,4,5,6,8,9,10}; // use 10 over 200 for demonstation
     Stack *s = initStack();
     Queue *q = initQueue();
 
-    for(int i = 0; i < 5; i++)
+    for(int i = 0; i < 9; i++)
         enqueue(q, arr[i]);
 
     while(!isEmptyQ(q))
         push(s, dequeue(q));
 
     while(!isEmpty(s))
-        sum += pop(s);
+        product *= pop(s);
     
-    cout << sum << endl;
+    cout << product << endl;
 
     return 0;
 }
