@@ -5,7 +5,7 @@ x = 40
 
 2. 80
 
-3. 24 ,28,32,17
+3. 24, 28, 32, 18
 
 b.
 Stacks are commonly used in programming to manage data flow. 
