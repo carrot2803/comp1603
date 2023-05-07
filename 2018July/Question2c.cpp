@@ -76,6 +76,8 @@ int isBalanced(char ch[]){
     while(!isEmpty(s1))   pop(s1), lhs++;
     while(!isEmpty(s2))   pop(s2), rhs++;
 
+    cout << "Number of parenthesis: "<< lhs+rhs << endl;
+
     if(lhs > rhs) return 1;
     else if(lhs < rhs) return -1;
     return 0;
