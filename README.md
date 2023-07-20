@@ -17,11 +17,11 @@ Each past paper is organized by `year/month`, and each question is in the form q
   <code>There are several ways to save this repository on your device. Two of these options include:</code>
 </summary>
 
--   [Downloading repository as ZIP](https://github.com/uwi-dcit-past-papers/1603-Past-Papers/archive/refs/heads/master.zip)
+-   [Downloading repository as ZIP](https://github.com/uwi-dcit-past-papers/comp1603/archive/refs/heads/master.zip)
 -   Running the following command in a terminal, provided the [GitHub CLI](https://cli.github.com/) has been previously installed:
 
 ```sh
-git clone https://github.com/uwi-dcit-past-papers/1603-Past-Papers.git
+git clone https://github.com/uwi-dcit-past-papers/comp1603.git
 ```
 
 </details>
