@@ -3,7 +3,7 @@
 This repository contains Sem2 2023 solutions. This is a follow up to the Comp1602 past paper practise repo I worked on with Paul Taylor.
 
 ```sh
-https://github.com/uwi-dcit-past-papers/comp1602.git
+https://github.com/you-we-dcit-past-papers/comp1602.git
 ```
 
 ## Usage
@@ -17,11 +17,11 @@ Each past paper is organized by `year/month`, and each question is in the form q
   <code>There are several ways to save this repository on your device. Two of these options include:</code>
 </summary>
 
--   [Downloading repository as ZIP](https://github.com/uwi-dcit-past-papers/comp1603/archive/refs/heads/master.zip)
+-   [Downloading repository as ZIP](https://github.com/you-we-dcit-past-papers/comp1603/archive/refs/heads/master.zip)
 -   Running the following command in a terminal, provided the [GitHub CLI](https://cli.github.com/) has been previously installed:
 
 ```sh
-git clone https://github.com/uwi-dcit-past-papers/comp1603.git
+git clone https://github.com/you-we-dcit-past-papers/comp1603.git
 ```
 
 </details>
