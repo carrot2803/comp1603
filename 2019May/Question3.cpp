@@ -30,14 +30,11 @@ bool containsKey(Node *top, char key){
     return containsKey(top->next, key);
 }
 
-bool anagram(Node *str1, Node *str2){
-    while(str1 != NULL){
-        if(!containsKey(str2, toLower(str1->data)))
-            return false;
-        str2 = deleteNode(str2, str1->data); 
-        str1 = str1->next;
-    }
-    return true;
+bool anagram(Node* str1, Node* str2) {
+    if (str1 == NULL) return true;
+    if (!containsKey(str2, toLower(str1->data))) return false;
+    str2 = deleteNode(str2, str1->data);
+    return anagram(str1->next, str2);
 }
 
 int main() {

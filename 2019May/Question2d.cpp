@@ -7,8 +7,10 @@ struct Node{
 };
 
 Node* deleteNode(Node* top, int key) {
-    if (top == NULL) 
-        return top;
+    if (top == NULL){
+        cout << "Key could not be found\n";
+        return NULL;
+    }
     if(top->data == key){
         Node *temp = top->next;
         free(top);

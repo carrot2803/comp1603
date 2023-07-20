@@ -16,7 +16,6 @@ Node *createNode(int n){
 Node *insertInOrder(Node *top, int key){
     if(top == NULL || top->data >= key){
         Node *newNode = createNode(key);
-        newNode->data = key;
         newNode->next = top;
         return newNode;
     }

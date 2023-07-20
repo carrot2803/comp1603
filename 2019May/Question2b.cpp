@@ -11,8 +11,7 @@ int recLast(Node *top){
         return -999;
     else if(top->next == NULL)
         return top->data;
-    else
-        return recLast(top->next);
+    return recLast(top->next);
 }
 
 int main() {
