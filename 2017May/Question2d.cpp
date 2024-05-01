@@ -1,13 +1,17 @@
 #include <iostream>
+using namespace std;
 
-void reverse(char ch[], int i){
-    if(ch[i] == '$') return;
-    reverse(ch, i+1); 
-    std::cout << ch[i];
+void reverse() {
+    char c;
+    cin >> c;
+    if (c == '$') 
+        return;
+    reverse();
+    cout << c;
 }
 
-int main(){
-    char ch[] = "abcd$";
-    reverse(ch, 0);
+int main() {
+    cout << "Enter string terminated by $" << endl;
+    reverse();
     return 0;
 }
